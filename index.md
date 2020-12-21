@@ -17,4 +17,4 @@ So, as you zoom out on each of these, trying to find some landmark you recognize
 be grateful for the world we share, treasure those portions you can walk to,
 and hesitate before starting a journey that requires paving a space for you at the far side.
 
-[Begin...](/places/1)
+[Begin...](places/1)
