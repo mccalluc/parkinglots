@@ -1,17 +1,15 @@
 ---
 layout: page
 ---
-{{ content }}
-
-<details>
-  <summary>where...</summary>
-  {{ page.answer }}
-</details>
-
 <iframe width="{{ page.width }}" height="{{ page.height }}" frameborder="0"
   src="https://www.bing.com/maps/embed?w={{ page.width }}&h={{ page.height }}&cp={{ page.lat }}~{{ page.long }}&lvl=19&sty=a">
 </iframe>
 
-<p>
-<a href="{{ page.title | plus: 1 }}">Next...</a>
-</p>
+{{ content }}
+
+<details>
+  <summary>This is...&nbsp;</summary>
+  {{ page.answer }}
+</details>
+
+<a class="next" href="{{ page.title | plus: 1 }}">Next...</a>

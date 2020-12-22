@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <style>
+    main {
+      /* Public Domain: https://www.flickr.com/photos/143742153@N05/33803855810 */
+      background-image: url(https://live.staticflickr.com/2892/33803855810_ea308e79fe_b.jpg);
+      background-repeat: no-repeat;
+      background-position: top;
+    }
+    main header {
+      display: none;
+    }
+    article {
+      background: white;
+      padding: 1em;
+      box-shadow: 0 0 2em 0.5em black;
+    }
+    iframe {
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 0 1em 0em black;
+      margin-top: 1.5em;
+    }
+    summary {
+      float: left;
+    }
+    details {
+      float: left;
+    }
+    .next {
+      float: right;
+    }
+  </style>
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
