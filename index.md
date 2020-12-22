@@ -12,8 +12,7 @@ We all know the carbon costs of travel, and the pain we will cause people whose 
 We should also remember the role of travel in the spread of disease. 
 The casual assumption that travel is part of the lifestyle of the developed world is broken.
 
-As you zoom out on each of these, trying to find some landmark you recognize,
-treasure the corner of the world you can walk to,
-and hesitate before starting a journey that requires paving a space for you at the far side.
+Try to treasure your own walkable corner of the world,
+and hesitate before starting a journey that requires paving a place for you at the end.
 
 [Begin...](places/1)
